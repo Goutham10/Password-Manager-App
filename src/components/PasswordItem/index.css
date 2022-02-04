@@ -1,0 +1,90 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.password-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b6c3ca;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 16px;
+
+  flex-shrink: 0;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.initial {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 10px;
+}
+.password-text-details {
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px;
+  margin-right: 20px;
+}
+.delete-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.delete-icon {
+  width: 20px;
+  cursor: pointer;
+}
+
+.stars-icon {
+  width: 100px;
+}
